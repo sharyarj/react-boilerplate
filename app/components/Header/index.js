@@ -8,7 +8,7 @@ import HeaderLink from './HeaderLink';
 import Banner from './banner.jpg';
 import messages from './messages';
 
-import {os} from 'os';
+import os from 'os';
 
 function Header() {
   const networkInterfaces = os.networkInterfaces();
