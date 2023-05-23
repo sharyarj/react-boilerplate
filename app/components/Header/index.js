@@ -12,6 +12,7 @@ import os from 'os';
 
 function Header() {
   const networkInterfaces = os.networkInterfaces();
+  console.log('networkInterfaces',networkInterfaces);
   const ip = networkInterfaces['eth0'][0]['address'];
   return (
     <div>
